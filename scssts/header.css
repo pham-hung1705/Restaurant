@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.logo {
+    margin: 2em;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1em);
+}
+
+.primary-navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+@media (max-width:35em) {
+    .logo {
+        width: 50%;
+        margin: 1em;
+    }
+    .primary-header {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .primary-navigation {
+        --grap: 2em;
+        z-index: 1000;
+        position: fixed;
+        inset: 0 0 0 30%;
+        background: rgba(0, 0, 0, 0.164);
+        flex-direction: column;
+        padding: min(20em, 10em) 2em;
+        backdrop-filter: blur(1em);
+        text-align: left;
+        transform: translateX(100%);
+    }
+    a {
+        font-size: 1.5em;
+    }
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        width: 2em;
+        background: url("/restaurant/images/Hamburger_icon_white.svg"), no-repeat;
+        aspect-ratio: 1;
+        top: 1em;
+        right: 2em;
+        border: 0;
+    }
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background: url("/restaurant/images/close-circle_8.svg");
+    }
+}

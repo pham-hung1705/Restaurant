@@ -1,0 +1,64 @@
+ body {
+     overflow-x: hidden;
+     text-align: center;
+     background-image: url('/restaurant/images/background_01.png');
+     .flex {
+         display: flex;
+         gap: var(--gap, 1em);
+     }
+     .logo {
+         margin: 2em;
+     }
+     .primary-navigation {
+         display: flex;
+         justify-content: center;
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         a {
+             text-decoration: none;
+         }
+     }
+     .mobile-nav-toggle {
+         display: none;
+     }
+     @media (max-width:35em) {
+         .primary-header {
+             text-align: left;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             .logo {
+                 width: 50%;
+                 margin: 1em;
+             }
+             .primary-navigation {
+                 --grap: 2em;
+                 z-index: 1000;
+                 position: fixed;
+                 inset: 0 0 0 30%;
+                 background: rgba(252, 0, 0, 0.164);
+                 flex-direction: column;
+                 padding: min(20em, 10em) 2em;
+                 background: rgba(134, 65, 65, 0.1);
+                 backdrop-filter: blur(1em);
+                 text-align: left;
+                 transform: translateX(100%);
+                 [data-visible="true"] {
+                     transform: translateX(0%);
+                 }
+             }
+             .mobile-nav-toggle {
+                 display: block;
+                 position: absolute;
+                 z-index: 9999;
+                 width: 1em;
+                 background: url("/restaurant/images/Hamburger_icon_white.svg.png"), no-repeat;
+                 aspect-ratio: 1;
+                 top: 2em;
+                 right: 2em;
+                 border: 0;
+             }
+         }
+     }
+ }

@@ -1,0 +1,60 @@
+4.2.	Tội cản trở hoặc gây rối loạn hoạt động của mạng máy tính
+•	Tấn công từ chối dịch vụ DDOS
+-	Truyền thông Thụy Điển ngày 3/10/2012 cho biết nhóm tin tặc khét tiếng Anonymous dã đánh sập trang web của ngan hàng Trung ương Thụy Điển
+-	Vào T2/2014,Cloudflare, một công ty chuyên tối ưu tốc độ dịch vụ và bảo mật tuyên bố đã bị tấn công bởi DDoS
+-	Treo Reuters, tập đoàn Sony, ngày 24/8/2014 cho biết mạng dữ liệu trò chơi PlayStation  (PlayStation Network-PST)của tập đoàn này bị tin tắc tấn công DDoS
+-	Theo Itas-Tass gày 14/3/2014, Cơ quan bóa chí Văn phòng tổng thông Nga đã xác nhận thông tin hacker tấn công trang thông tin chính thức của điện Kremlin
+•	Tấn công chiếm đoạt tên miền
+Đây là thủ đoạn sử dụng công nghệ thông tin, để lấy cắp, chiệm đoạt tên miền (domain) làm gián đoạn truy cập vào domain của các website bị lấy cắp, hướng người truy cập vào website của hacker. Cơ sở dử liệu của trang web không bị xâm phạm, phá hoại mà chỉ bị cách ly khỏi tên miền
+	Hacker lợi dụng lỗ hổng bảo mật máy của của nhà cung cấp tên miền để xâm nhập vào máy chỉ và sửa chữa lại IP hướng tên miềm đến 1 địa chỉ domain khác
+	Hacker gửi trojan, cài keylogger, dùng fake log-in mail để trộm, lấy cắp được mật khẩu và email liên lạc với nhà cung cấp dịch vụ hosting domain, ra lệnh đổi email liên lạc và dùng email này yêu cầu ISP cấp key quản lý domain chuyển domain sang hosting tại ISP khác
+-	Vụ tấn công tên miền PAVN vào ngày 27/7/2008
+-	Ngày 15/3/2014 máy chủ DNS 8/8/8/8/32 của Google bị tấn công và khống chế suốt 22 phút
+-	Vào khoảng 19h tối ngày 14.8.2014 khi truy cập vào tên miền thegioididong.com.vn , người dùng bị chuyển hướng đến 1 website lạ. giao diện của website nàu không phải của Thế Giới Di Động, mà chỉ chưa những lời lẽ khiêu khích của 1 nhóm hacker tự nhận là “ China 1937cN tcAm”. Kèm theo đó là đường dẫn đến blog của hạcker
+4.3.	Tội truy cập bất hợp pháp, tấn công website, CSDL
+•	Đây là hành vi lợi dụng lỗ hổng bảo mật và sử dụng mốt số phầm mềm hacking tool, cố ý vượt qua các cảnh báo. Mã truy cập, tương lưa, sử dụng quyền quản trị của người khác truy cập bất hợp phgaps vòa mạng máy tính, để chiếm quyền điều khiểm can thiệp vào chức năng hoạt động của thiết bị số, lấy cắp. thay đổi, hủy hoại, làm giả dữ liệu,,,, hacker thường sử dụng proxy , để truy cập bất hợp pháp vào hệ thống server:
+	Cài đặt backdoor, sniffer, keylogger vào máy tính, mạng máy tính để chiếm đoạt quyền điều khiển, lấy username, password của adminstrator
+	Tấn công lỗ hổng bảo mật web, như SQL Injection, tấn công deface, truy cập và sửa đổi dữ liệu của trang web…
+	Tấn công vào mạng nội bộ LAN thông qua VNP
+	Tấn công thông qua lỗ hổng bảo mật của website sử dụng chung server hoặc chung hệ thống máy chủ của ISP làm cầu nối tấn công địch
+•	Một số vụ tấn công điển hình:
+-	Vụ tin tặc Trung Quốc tấn công , lấy cắp dữ liệu của tập đoàn dầu khí vào ngày 18/4/2012
+ 
+
+-	Vào tháng 2/2013, Cục dự trữ liên bang Mỹ đã chính thức xác nhận về tổ chức Anonymous đã xâm nhập thành công vòa một số hệ thoogn website của chính phủ, nhằm ăn cắp thông tin và gửi đi 1 số thông tin nhạy cmr của trên 4600 giám đốc điều hành ngân hàng
+-	Ngày 16/2/2013 Facebook mạng xã hội lớn nhật hành tinh thông báo, bộ phận an ninh của công ty đã phát hiệm 1 cụ tấn công rất tinh vi vào hệ thống mạng mà nguyên nhân gây ra chủ yếu do các lỗ hổng zero-day
+4.4.	Tội sử dụng hoặc đưa trái phép thông tin trên mạng Internet
+-	Thủ đoạn của bọn tội phạm, phản động là sử dụng những điểm mạnh của mạng internet,  như tốc độ truyền tin nhanh chóng, sử dụng kỹ thuật proxy….
+-	Đẩy mạnh các hoạt động chống phá Đảng, nhà nước, tuyên truyền phá hoawij tư tưởng, hạ uy tín của Đảng và Nhà nước, kích động hoạt động chống chính quyền , gây chia rẽ nội bộ, gây bạo loạn , tập hợp lức lượng để hình thành tổ chức chính trị đối lập
+•	Mua bán, trao đổi, tặng cho, thay đổi, công khai hóa thông tin riêng của tổ chức, cá nhân:
+-	Skimming: là thử đoạn cà thẻ, đề lấy cắp thông tin thẻ ngân hàng tại các cửa hàng, nhà hàng, khách sạn: nhân viên thanh toán bí mật cà thẻ vòa máy skimming có bộ nhớ, có chức năng mã hóa, ghi trộm dãy số trên track 1 và 2 bằng máy skimming
+-	Lấy thông tin từ máy ATM : bọn tội phạm cải tiến thiết bị ghi thông tin thẻ và số Pin của chủ thẻ, bằng cách dán mặt máy ATM giả lên máy ATM thật, phần đưa thẻ còa. Hoặc gắn 1 camera ngay trên bàn phím để ghi hình lại việc khawchs gõ bàn phím, lấy số PIN , truyền vô truyến đến 1 thiết bị đặt ở chỗ khác ghi lại
+-	Phishing : để trộm cắp thông tin các nhân và thẻ ngân hàng
++ thủ đoạn phishing 1 : hacker sử dụng thẻ tín dụng lấy cắp, mua mốt tên miền gần giống tên miền thật của ngân hàng, đặt trang web giả có giao điện như trang web thật, sau đó gửi thư điện tử cho khách hàng yêu cầu cập nhật thông tin thẻ tín dụng
++ thủ đoạn phishing 2 : thủ phạm thường xây dựng 1 trang web bán hàng lừ đảo giống trang web thật, giá cả mặt hàng rẻ hơn có tích hợp tính năng thanh toán điện tử, khách hàng điền thông tin cá nhân, thông tin thẻ tính dụng sẽ được chuyển về mail của tội phạm
+-	Tấn công cở sử dữ liệu(hacking) : sử dụng một số phần mềm để phát hiện lỗi của website bán hàng, thnah toán điện tử trộng account, passwors admin…truy cập csdl lấy email, thông tin cá nhân, thẻ tín dụng… phần lớn do nhân viện nội bộ nhân viên nghỉ việc
+-	Cài keylogger : ghi thông tin gõ bàn phím, một số lại spyware chuyên lấy thông tin thẻ ngân hàng như Zeus, SpyEye, Flame….
+-	Thu thập thông tin thẻ tín dụng trên 1 số diễn đàn về thẻ tín dụng của hacker
+•	Truyền bá văn hóa phẩm đồi trụy:
+-	Các trang web truyền bá văn hóa phẩm đồi trụy đề có doumain hosting ở nwuocs ngoài, chủ yếu là ở nước Mỹ
+-	Mốt số đối tượng phát tấn hình ảnh, video, clip sex của ngưới khác làm ảnh hưởn đến cuốc sống riêng tư , tốn tiền, tống tình… như videoclip sexdamle.vanganh.clip.vn
+4.5.	Tội sử dụng mạng máy tính thực hiện hành vi chiếm đoặt tài sản
+-	Nhóm hành vi gian lận thẻ:
++ sản xuất và sử dụng thẻ màu giả để trộm cắp tiền
++ trộm cắp tiền ở máy ATM bằng thẻ giả
++ sử dụng thẻ ngân hàng trộm cắp đề mua hàng trực tuyến
++ truy cập bắt hợp pháp vào tài khoản người khác rút tiền
+•	Gồm các nhóm chính sau:
+-	Nhóm sử dụng công nghệ cao lừa đảo trong thương mại điện tử
+-	Lừa đảo trong lĩnh vực 
+4.6.	Tội sử dụng tiền ảo để rửa tiền
+•	Tội phạm rửa tiền trực tuyến bằng cách lấy tiền từ tài khoản thẻ tín dingj trộm cắp , sử dụng tiền có nguồn gốc bất hợp pháp khác, trả tiền hoặc đổi tiền trên các trang web tiền ảo, trang web gameoline, các trang có độ bóng đá, đánh bạc.... làm phương tiện mua các tài ản sảo, cuối cùng để lấu lại tiền thật howjc dưới hình thức quà tặng , trao đổi lợi ích linh tế trong thế giới ảo
+•	Tiền điện tử được tổ chức phát hành đảm bảo giá trị, bằng cam kết chuyển đổi sang tiền giấy, theo yêu cầu của chủ sỡ hữu như Liberty Reserve, e-gold, webmoney
+4.7.	Tội đánh bạc , cá độ bóng đá qua mạng
++ Ở VN , hoặt động đánh bạc các độ bóng đó quốc tế qua mạng đã rất phổ biến, nhất là trên các website cá độ nước ngoài. Giá trị cá độ qua mạng bằng tiền có thể lên đến hàng chục triệu USD mỗi ngyaf, chủ yếu được thanh toán thông qua ngân hàng
++ Những trang mạng có số lượng ng chơi đông nhất ở VN là Jbet888, Sbobet, bet365...
+4.8.	Tội xâm phạm quyền sử hữu trí tuệ
+•	Thủ đoạn phỏ biến hiện nay
+	Sao chép các tác phẩm văn học , nghệ thuật , bài hát, phim ảnh, phần mềm, ...không có bản quyền từ các website trên internet
+	Cỗ máy tìm kiếm có dịch vụ tạo điều kiện truy cập đương link đề nọi dung vi phạm, được lưu trữ trên máy chủ ở các dịch vụ khác, như blog, diễn đàn, mãng xã hội và mục âm nhạc, phim trực tuyến...
+	Các dịch vụ nặc danh dưa tệp tin của ca nhân người dùng lên lưu trữ trên máy chủ  có đường link tới các diễn đàn/blog trực tuyến
